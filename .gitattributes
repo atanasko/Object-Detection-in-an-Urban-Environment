@@ -1,1 +1,2 @@
 results/experiments/reference/animation.gif filter=lfs diff=lfs merge=lfs -text
+results/experiments/experiment0/animation1.gif filter=lfs diff=lfs merge=lfs -text
