@@ -34,7 +34,7 @@ Data set is splitted in training and validation subsets. Splitting is done follo
 
 Next result from training and validation from reference training and experiment with changed parameters are displayed.
 
-For the reference experiment we have the following graphs
+Reference training and validation graphs
 
 Loss graph
 
@@ -52,9 +52,44 @@ Recall graph
 
 ![Alt text](results/experiments/reference/recall.png "Recall graph")
 
-During the training process learning curve rise lineary and than drop non non lineary. Loss function have different form when training performed on the same training model from beggining. Screenshots from the training and test are attached in the result directory.
+
+Training loss is decreasing, hence the model is converging, since we are using ssd model and it generally overfits, the validation loss is also decreasing, meaning that the model is able to generalize to the validation set.
+
+
+Experiment training and validation graphs
+
+In this experimnt two parameters are changed in the pipline file
+
+ data_augmentation_options {
+    random_rgb_to_gray {
+      probability: 0.2
+    }
+  }
+  data_augmentation_options {
+    random_adjust_brightness {
+      max_delta: 0.4
+    }
+  }
+
+and here are result graphs
+
+Loss graph
+
+![Alt text](results/experiments/experiment0/loss.png "Loss graph")
+
+Learning rate graph
+
+![Alt text](results/experiments/experiment0/learning_rate.png "Learning rate graph")
+
+Precission graph
+
+![Alt text](results/experiments/experiment0/precission.png "Precission graph")
+
+Recall graph
+
+![Alt text](results/experiments/experiment0/recall.png "Recall graph")
+
 
 #### Improve on the reference
 
 This section should highlight the different strategies you adopted to improve your model. It should contain relevant figures and details of your findings.
-
