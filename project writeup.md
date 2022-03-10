@@ -36,10 +36,20 @@ Next result from training and validation from reference training and experiment 
 
 For the reference experiment we have the following graphs
 
+Loss graph
 
 ![Alt text](results/experiments/reference/loss.png "Loss graph")
+
+Learning rate graph
+
 ![Alt text](results/experiments/reference/learning_rate.png "Learning rate graph")
+
+Precission graph
+
 ![Alt text](results/experiments/reference/precission.png "Precission graph")
+
+Recall graph
+
 ![Alt text](results/experiments/reference/recall.png "Recall graph")
 
 During the training process learning curve rise lineary and than drop non non lineary. Loss function have different form when training performed on the same training model from beggining. Screenshots from the training and test are attached in the result directory.
