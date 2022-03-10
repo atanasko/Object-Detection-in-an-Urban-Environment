@@ -26,7 +26,7 @@ Here are some images from the analysis
 
 #### Cross validation
 
-Data set is splitted in training and validation subsets. Splitting is done following the rule 80% - 90% goes in the training dataset, and the 10% - 20% goes in validation dataset.
+Cross validation is a set of techniques to evaluate the capacity of our model to generalize and alleviate the overfitting challenges. In this project cross validation strategy is used where we split the available dataset in training and validation subsets. Splitting is done following the rule 80% - 90% goes in the training dataset, and the 10% - 20% goes in validation dataset.
 
 ### Training
 #### Reference experiment
