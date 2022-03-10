@@ -11,6 +11,10 @@ Project code can be executed localy only on a machine with Nvidia GPU and approp
 
 During the dataset exploratory analysis we can notice that most of the images are taken in urban environment and on a sunny weather. There are some of the images on the open road. Very few of the images are in rainy, cloudy and night weather.
 
+Here are some images from the analysis
+
+![Alt text](results/exploratory_data_analysis/frame1.png)
+
 *Note: Images can be seain the in the github notebook presentation. In the notebook there are filenames of the multiple test records.* 
 
 #### Cross validation
