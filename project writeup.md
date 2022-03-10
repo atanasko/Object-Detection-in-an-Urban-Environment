@@ -21,7 +21,8 @@ Here are some images from the analysis
 ![Alt text](results/exploratory_data_analysis/frame6.png "result 6")
 ![Alt text](results/exploratory_data_analysis/frame7.png "result 7")
 
-*Note: Images can be seain the in the github notebook presentation. In the notebook there are filenames of the multiple test records.* 
+
+### --- dataset class distribution---
 
 #### Cross validation
 
@@ -29,6 +30,17 @@ Data set is splitted in training and validation subsets. Splitting is done follo
 
 ### Training
 #### Reference experiment
+
+
+Next result from training and validation from reference training and experiment with changed parameters are displayed.
+
+For the reference experiment we have the following graphs
+
+
+![Alt text](results/experiments/reference/loss.png "Loss graph")
+![Alt text](results/experiments/reference/learning_rate.png "Learning rate graph")
+![Alt text](results/experiments/reference/precission.png "Precission graph")
+![Alt text](results/experiments/reference/recall.png "Recall graph")
 
 During the training process learning curve rise lineary and than drop non non lineary. Loss function have different form when training performed on the same training model from beggining. Screenshots from the training and test are attached in the result directory.
 
