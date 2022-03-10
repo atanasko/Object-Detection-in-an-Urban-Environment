@@ -92,4 +92,4 @@ Recall graph
 
 #### Improve on the reference
 
-This section should highlight the different strategies you adopted to improve your model. It should contain relevant figures and details of your findings.
+During the dataset exploratory analysis we can notice that most of the images are taken in urban environment and on a sunny weather. There are some of the images on the open road. Very few of the images are in rainy, cloudy and night weather. Because of this by using explore augmentations notebook we can add some augmentations to improve the dataset like random_rgb_to_gray and random_adjust_brightness.
