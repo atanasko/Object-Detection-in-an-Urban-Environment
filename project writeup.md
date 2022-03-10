@@ -13,7 +13,13 @@ During the dataset exploratory analysis we can notice that most of the images ar
 
 Here are some images from the analysis
 
-![Alt text](results/exploratory_data_analysis/frame1.png "First test result")
+![Alt text](results/exploratory_data_analysis/frame1.png "result 1")
+![Alt text](results/exploratory_data_analysis/frame2.png "result 2")
+![Alt text](results/exploratory_data_analysis/frame3.png "result 3")
+![Alt text](results/exploratory_data_analysis/frame4.png "result 4")
+![Alt text](results/exploratory_data_analysis/frame5.png "result 5")
+![Alt text](results/exploratory_data_analysis/frame6.png "result 6")
+![Alt text](results/exploratory_data_analysis/frame7.png "result 7")
 
 *Note: Images can be seain the in the github notebook presentation. In the notebook there are filenames of the multiple test records.* 
 
