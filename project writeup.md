@@ -22,7 +22,7 @@ Here are some images from the analysis
 ![Alt text](results/exploratory_data_analysis/frame7.png "result 7")
 
 
-##### --- dataset class distribution---
+##### Dataset class distribution
 
 ![Alt text](results/exploratory_data_analysis/distribution_graph.png "Class distribution graph")
 
