@@ -63,16 +63,16 @@ Training loss is decreasing, hence the model is converging, since we are using s
 
 In this experimnt two parameters are changed in the pipline file
 
- data_augmentation_options {
-    random_rgb_to_gray {
-      probability: 0.2
-    }
-  }
-  data_augmentation_options {
-    random_adjust_brightness {
-      max_delta: 0.4
-    }
-  }
+	data_augmentation_options {
+   	   random_rgb_to_gray {
+              probability: 0.2
+   	   }
+	}
+	data_augmentation_options {
+   	   random_adjust_brightness {
+     	      max_delta: 0.4
+   	   }
+	}
 
 and here are result graphs
 
