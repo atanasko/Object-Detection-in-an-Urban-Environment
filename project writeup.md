@@ -92,9 +92,6 @@ Recall graph
 
 ![Alt text](results/experiments/experiment0/recall.png "Recall graph")
 
-
-![Alt text](results/experiments/experiment0/animation1.gif "Experiment training animation")
-
 #### Improve on the reference
 
 During the dataset exploratory analysis we can notice that most of the images are taken in urban environment and on a sunny weather. There are some of the images on the open road. Very few of the images are in rainy, cloudy and night weather. Because of this by using explore augmentations notebook we can add some augmentations to improve the dataset like **random_rgb_to_gray** and **random_adjust_brightness**.
