@@ -54,11 +54,12 @@ Recall graph
 
 ![Alt text](results/experiments/reference/recall.png "Recall graph")
 
+https://github.com/atanasko/Object-Detection-in-an-Urban-Environment/blob/master/results/experiments/reference/animation.gif
 
 Training loss is decreasing, hence the model is converging, since we are using ssd model and it generally overfits, the validation loss is also decreasing, meaning that the model is able to generalize to the validation set.
 
 
-Experiment training and validation graphs
+#### Experiment training and validation graphs
 
 In this experimnt two parameters are changed in the pipline file
 
